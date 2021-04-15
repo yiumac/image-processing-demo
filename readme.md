@@ -40,6 +40,6 @@
 + The result of image definition enhancement
 
  <center class="half">
-     <img src="readme.assets/input-1618494953363.jpg" width="400"/><img src="readme.assets/output.jpg" width="400"/>
+     <img src="readme.assets/input-1618494953363.jpg" width="350"/><img src="readme.assets/output.jpg" width="350"/>
  </center>
 
