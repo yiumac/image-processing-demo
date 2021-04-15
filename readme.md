@@ -31,18 +31,17 @@
 
   + UI of MainActivity
 
-  <img src="readme.assets/MainActivity.JPG" width="200" />
+  <img src="readme.assets/MainActivity.JPG" width="350" />
 
   + UI of ImgResultActivity
 
-  <img src="readme.assets/result.png" width="200" />
+  <img src="readme.assets/result.png" width="350" />
 
 + The result of image definition enhancement
     + input
+   
+  <img src="readme.assets/input-1618494953363.jpg" width="300" />
 
-  ![input](readme.assets/input-1618494953363.jpg)
-
-  
     + output
-  
-  ![output](readme.assets/output.jpg)
+    
+  <img src="readme.assets/output.jpg" width="300" />
