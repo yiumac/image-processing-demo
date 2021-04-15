@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ImgProcessing</string>
+    <string name="button">selectButton</string>
+    <string name="imgprocessing">图像处理</string>
+    <string name="todo">TODO</string>
+    <string name="dehazing">图像去雾</string>
+    <string name="contrast_enhance">对比度增强</string>
+    <string name="zoom">无损放大</string>
+    <string name="bw_coloring">黑白图像上色</string>
+    <string name="sharpness_enhance">清晰度增强</string>
+    <string name="stretch_restore">拉伸图像恢复</string>
+    <string name="save2local">保存到本地</string>
+    <string name="save2cloud">保存到云端</string>
+
+    <string name="assessment_result">评分结果为</string>
+    <string name="zero_0">0</string>
+    <string name="tipText">请点击功能按钮增强图像！</string>
+</resources>

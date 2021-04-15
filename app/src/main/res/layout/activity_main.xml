@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/func_btns"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        app:layout_constraintTop_toBottomOf="@+id/tip_text"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btn_dehazing"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/dehazing"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_definition_enhance"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/sharpness_enhance"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_contrast_enhance"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/contrast_enhance"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_stretch_restore"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/stretch_restore"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_quality_enhance"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/zoom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_colorize"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/shape_bt"
+            android:text="@string/bw_coloring"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/my_color"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tip_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:hint="@string/tipText"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/orange"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toTopOf="@+id/func_btns"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
