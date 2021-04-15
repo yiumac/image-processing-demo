@@ -40,8 +40,8 @@
 + The result of image definition enhancement
     + input
    
-  <img src="readme.assets/input-1618494953363.jpg" width="300" />
+  <img src="readme.assets/input-1618494953363.jpg" width="450" />
 
     + output
     
-  <img src="readme.assets/output.jpg" width="300" />
+  <img src="readme.assets/output.jpg" width="450" />
