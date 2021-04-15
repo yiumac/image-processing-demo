@@ -31,11 +31,11 @@
 
   + UI of MainActivity
 
-  <img src="readme.assets/MainActivity.JPG" style="zoom:50%;" />
+  <img src="readme.assets/MainActivity.JPG" style="zoom:30%;" />
 
   + UI of ImgResultActivity
 
-  <img src="readme.assets/result.png" style="zoom:80%;" />
+  <img src="readme.assets/result.png" style="zoom:50%;" />
 
 + The result of image definition enhancement
     + input
