@@ -38,8 +38,9 @@
   <img src="readme.assets/result.png" width="350" />
 
 + The result of image definition enhancement
+  + input
+     <img src="readme.assets/input-1618494953363.jpg" width="350"/>
+  + output
+     <img src="readme.assets/output.jpg" width="350"/>
 
- <center class="third">
-     <img src="readme.assets/input-1618494953363.jpg" width="350"/><img src="readme.assets/output.jpg" width="350"/>
- </center>
 
