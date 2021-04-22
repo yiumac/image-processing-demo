@@ -1,6 +1,6 @@
 ### 图像效果增强Android应用-ImgProcessing-demo
 + 核心代码版本，此版本未添加用户管理功能
-+ 本工程基于[百度云开放平台](https://cloud.baidu.com/product/imageprocess)API构建图像效果增强Android应用，主要提供图像去雾、清晰度增强、黑白图像上色等多种图像效果增强的服务
++ 本工程基于云开放平台API构建图像效果增强Android应用，主要提供图像去雾、清晰度增强、黑白图像上色等多种图像效果增强的服务
 
 #### build.gradle (project: ImgProcessing)
 
